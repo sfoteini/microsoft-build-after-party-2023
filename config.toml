@@ -34,7 +34,7 @@ title = "Microsoft Build After Party - Greece"
   [params.seo]
     meta_twitter_site = "@SavvidouFoteini"
     meta_twitter_creator = "@SavvidouFoteini"
-    meta_og_image = ""
+    meta_og_image = "https://sfoteini.github.io/microsoft-build-after-party-2023/build-after-party-greece.png"
 
   [params.services]
     summary_truncate = 120 # How many characters to include in the summary of the services before truncating
