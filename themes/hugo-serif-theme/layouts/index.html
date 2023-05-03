@@ -1,0 +1,91 @@
+{{ define "body_classes" }}page-home{{ end }}
+
+{{ define "main" }}
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-1 order-md-1">
+        {{ .Content }}
+        {{ if .Site.Params.homepage.show_contact_box }}
+        {{ partial "call.html" (dict "site" .Site "context" . "show_button" "true") }}
+        {{ end }}
+
+        <!-- Button -->
+        {{ if .Params.button.enable }}
+        <div class="call-box-bottom">
+          <a href="{{ .Params.button.button_link }}" class="button">{{ .Params.button.title }}</a>
+        </div>
+        {{ end }}
+      </div>
+      {{ if .Params.intro_image }}
+      <div class="col-12 col-md-5 col-lg-6 order-2 order-md-2 position-relative">
+        <img alt={{ .Title }}
+          class="intro-image{{ if .Params.intro_image_absolute }} intro-image-absolute{{ end }}{{ if .Params.intro_image_hide_on_mobile }} intro-image-hide-mobile{{ end }}"
+          src="{{ .Params.intro_image | relURL }}" />
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+{{ if .Params.agenda.enable }}
+<div class="strip" id="agenda">
+  <!-- TO DO: Add agenda template -->
+</div>
+{{ end }}
+
+{{ if .Params.speakers.enable }}
+<div class="strip" id="speakers">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <h2 class="pb-6 pt-2" style="text-align: center;">{{ .Params.speakers.title }}</h2>
+    <div class="row">
+      {{ range .Params.speakers.item }}
+      <div class="col-12 col-md-6 mb-2">
+        <div class="team team-summary team-summary-large">
+          <div class="team-image">
+            <img width="360" height="360" alt="" class="img-fluid mb-2" src="{{ .image | relURL }}" />
+          </div>
+          <div class="team-meta">
+            <h3 class="team-name">{{ .title }}</h3>
+            <p class="team-description">{{ .jobtitle }}</p>
+            <div><a target="_blank" rel="noreferrer" href="{{ .linkedinurl }}">LinkedIn</a> | 
+            <a target="_blank" rel="noreferrer" href="{{ .websiteurl }}">Website</a></div>
+          </div>
+          <div class="team-content">{{ .description }}</div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ if .Params.resources.enable }}
+<div class="strip strip-grey" id="resources">
+  <div class="container pt-4 pb-6 pt-md-4 pb-md-10">
+    <h2 class="pb-4 pt-2" style="text-align: center;">{{ .Params.resources.title }}</h2>
+    <div class="row justify-content-center">
+      {{ range .Params.resources.item }}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {{ if .image }}
+          <div class="feature-image"><img width="100" height="100" alt=""
+              src="{{ .image | relURL }}" /></div>
+          {{ end }}
+          <h3 class="feature-title">{{ .title }}</h3>
+          <div class="feature-content">
+            <p>{{ .description }}</p>
+          </div>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ end }}
+
+
+{{ define "footer_js" }}
+{{ end }}

@@ -1,0 +1,15 @@
+<div class="call">
+  <div class="call-box-top">
+    {{ if .site.Data.contact.when }}
+        <div class="call-phone"><strong>When: </strong> {{ .site.Data.contact.when }} </div>
+    {{ end }}
+    {{ if .site.Data.contact.where }}
+    <div class="call-email"><strong>Where: </strong> {{ .site.Data.contact.where }} </div>
+    {{ end }}
+  </div>
+    {{ if eq .show_button "true" }}
+      <div class="call-box-bottom">
+        <a href="{{ .site.Data.contact.button_link | relURL }}" class="button">Join us!</a>
+      </div>
+    {{ end }}
+</div>

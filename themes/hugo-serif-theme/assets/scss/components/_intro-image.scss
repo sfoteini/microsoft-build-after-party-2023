@@ -1,0 +1,50 @@
+.intro-image {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+
+  @include media-breakpoint-up(sm) {
+  }
+  @include media-breakpoint-up(md) {
+    margin-top: -20px;
+    width: 300px;
+  }
+  @include media-breakpoint-up(lg) {
+    margin-top: -30px;
+    width: 450px;
+  }
+  @include media-breakpoint-up(xl) {
+    margin-top: -40px;
+    width: 100%;
+  }
+}
+.intro-image-absolute {
+  max-width: none;
+
+  padding: 0;
+  margin-bottom: 30px;
+  @include media-breakpoint-up(sm) {
+  }
+  @include media-breakpoint-up(md) {
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    width: 500px;
+  }
+  @include media-breakpoint-up(lg) {
+    bottom: -20px;
+    left: 0px;
+    width: 500px;
+  }
+  @include media-breakpoint-up(xl) {
+    bottom: -20px;
+    left: 0px;
+    width: 500px;
+  }
+}
+.intro-image-hide-mobile {
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+}
