@@ -29,12 +29,12 @@ speakers:
     websiteurl: "https://sfoteini.github.io/"
     description: "Foteini is an Electrical and Computer Engineering student at the Aristotle University of Thessaloniki. She is interested in IoT, AI, cloud technologies, and biomedical engineering. She has been awarded as a Microsoft MVP in AI and is actively involved in the Microsoft Learn Student Ambassadors community. She constantly shares her knowledge on Microsoft Azure technologies, speaks at conferences and user groups, and runs a technical blog."
 
-  - title: "Konstantinos Sitistas"
-    image: ""
+  - title: "Konstantinos Kyriakos Sitistas"
+    image: "images/team/Konstantinos.webp"
     jobtitle: "Microsoft Learn Student Ambassador"
     linkedinurl: "https://www.linkedin.com/in/sitistas/"
     websiteurl: "https://azurepilot.tech/"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    description: "Konstantinos is a Microsoft Learn Student Ambassador and an Electrical & Computer Engineering Student in the University of Patras, Greece. His main area of interest is software engineering, and he is also working on the fields of natural language processing, artificial intelligence & DevOps. He is also working as a Software Engineer at an IoT company , and recently started running a technical blog, azurepilot.tech."
 
 # resources
 resources:
