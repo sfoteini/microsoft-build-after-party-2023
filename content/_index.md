@@ -34,7 +34,7 @@ speakers:
     jobtitle: "Microsoft Learn Student Ambassador"
     linkedinurl: "https://www.linkedin.com/in/sitistas/"
     websiteurl: "https://azurepilot.tech/"
-    description: "Konstantinos is a Microsoft Learn Student Ambassador and an Electrical & Computer Engineering Student in the University of Patras, Greece. His main area of interest is software engineering, and he is also working on the fields of natural language processing, artificial intelligence & DevOps. He is also working as a Software Engineer at an IoT company , and recently started running a technical blog, azurepilot.tech."
+    description: "Konstantinos is a Microsoft Learn Student Ambassador and an Electrical & Computer Engineering Student in the University of Patras, Greece. His main area of interest is software engineering, and he is also working on the fields of natural language processing, artificial intelligence & DevOps. He is also working as a Software Engineer at an IoT company, and recently started running a technical blog, azurepilot.tech."
 
 # resources
 resources:
