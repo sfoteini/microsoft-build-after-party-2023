@@ -72,9 +72,9 @@
           <div class="feature-image"><img width="100" height="100" alt=""
               src="{{ .image | relURL }}" /></div>
           {{ end }}
-          <h3 class="feature-title">{{ .title }}</h3>
+          <h3 class="feature-title"><a href="{{ .url }}" rel="noopener nofollow" target="_blank">{{ .title }}</a></h3>
           <div class="feature-content">
-            <p>{{ .description }}</p>
+            <p>{{ .description }}<a href="{{ .url }}" rel="noopener nofollow" target="_blank">{{ .urltitle }}</a></p>
           </div>
         </div>
       </div>

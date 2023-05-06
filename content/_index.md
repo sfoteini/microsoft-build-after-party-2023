@@ -39,22 +39,25 @@ speakers:
 # resources
 resources:
   title: "Resources"
-  enable: false
+  enable: true
   item:
-  - title: "Microsoft Learn"
-    image: "images/features/noun_3d modeling_1885342.svg"
-    url: "#"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title: "Microsoft Build"
+    image: "images/features/tv.svg"
+    url: "https://build.microsoft.com/"
+    urltitle: "Attend Microsoft Build!"
+    description: "Discover sessions, discussions, and expert-led labs on a range of topics, such as AI, cloud platform, developer tools, low-code apps, and more. "
 
   - title: "Microsoft Learn"
-    image: "images/features/noun_branding_1885335.svg"
-    url: "#"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    image: "images/features/book.svg"
+    url: "https://learn.microsoft.com/training/?WT.mc_id=AI-MVP-5004971"
+    urltitle: "Find resources!"
+    description: "Learn technical skills and explore a topic in-depth through guided paths. Find educational resources, online events, and opportunities to accomplish your carrer goals. "
 
-  - title: "Microsoft Learn"
-    image: "images/features/noun_The Process_1885341.svg"
-    url: "#"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title: "Microsoft AI"
+    image: "images/features/cpu.svg"
+    url: "https://www.microsoft.com/ai"
+    urltitle: "Explore Microsoft AI platform!"
+    description: "Get ready to enter the era of Artificial Intelligence and discover how AI technologies can be used to address real-world issues. "
 
 ---
 
