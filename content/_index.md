@@ -16,6 +16,13 @@ button:
 agenda:
   title: "Agenda"
   enable: false
+  item:
+  - time: "19.00-20.00"
+    title: "Session 1 - TBA"
+  - time: "20.00-20.10"
+    title: "Break"
+  - time: "20.10-21.00"
+    title: "Session 2 - TBA"
 
 # speakers
 speakers:
