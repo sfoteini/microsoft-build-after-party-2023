@@ -58,7 +58,7 @@ resources:
     image: "images/features/book.svg"
     url: "https://learn.microsoft.com/training/?WT.mc_id=AI-MVP-5004971"
     urltitle: "Find resources!"
-    description: "Learn technical skills and explore a topic in-depth through guided paths. Find educational resources, online events, and opportunities to accomplish your carrer goals. "
+    description: "Learn technical skills and explore a topic in-depth through guided paths. Find educational resources, online events, and opportunities to accomplish your career goals. "
 
   - title: "Microsoft AI"
     image: "images/features/cpu.svg"
