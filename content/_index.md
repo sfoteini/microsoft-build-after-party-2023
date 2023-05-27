@@ -8,9 +8,9 @@ intro_image_hide_on_mobile: false
 
 # button
 button:
-  title: "Join us!"
-  enable: false
-  url: "#"
+  title: "Explore Learn Collections"
+  enable: true
+  url: "https://aka.ms/msbuild-lc-h106"
 
 # agenda
 agenda:
@@ -56,7 +56,7 @@ resources:
 
   - title: "Microsoft Learn"
     image: "images/features/book.svg"
-    url: "https://learn.microsoft.com/training/?WT.mc_id=AI-MVP-5004971"
+    url: "https://aka.ms/msbuild-lc-h106"
     urltitle: "Find resources!"
     description: "Learn technical skills and explore a topic in-depth through guided paths. Find educational resources, online events, and opportunities to accomplish your career goals. "
 

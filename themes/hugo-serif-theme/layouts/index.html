@@ -12,8 +12,8 @@
 
         <!-- Button -->
         {{ if .Params.button.enable }}
-        <div class="call-box-bottom">
-          <a href="{{ .Params.button.button_link }}" class="button">{{ .Params.button.title }}</a>
+        <div class="call-box-bottom pb-2">
+          <a rel="noopener" target="_blank" href="{{ .Params.button.url }}" class="button">{{ .Params.button.title }}</a>
         </div>
         {{ end }}
       </div>
@@ -36,7 +36,7 @@
 
 {{ if .Params.speakers.enable }}
 <div class="strip" id="speakers">
-  <div class="container pt-6 pb-6 pb-md-10">
+  <div class="container pt-4 pb-6 pb-md-10">
     <h2 class="pb-6 pt-2" style="text-align: center;">{{ .Params.speakers.title }}</h2>
     <div class="row">
       {{ range .Params.speakers.item }}
