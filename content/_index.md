@@ -70,6 +70,6 @@ resources:
 
 # Microsoft Build After Party
 
-## 6 July 2023 from 19:00 till 21:00 (UTC+03:00 Europe/Greece)
+## 6 July 2023 from 19:30 till 21:00 (UTC+03:00 Europe/Greece)
 
 Join us for this exciting online event and discover the latest advancements in the field of AI! Learn how to leverage Azure to develop and deploy AI solutions that can help you solve real-world problems. We'll discuss the latest announcements in AI from Microsoft Build and how to get started with Azure AI services. Join us on this journey to AI!
